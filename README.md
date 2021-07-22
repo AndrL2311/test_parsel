@@ -1,1 +1,1 @@
-# test_parsel
+# goit-js-hw-10-food-service
