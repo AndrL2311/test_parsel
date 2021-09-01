@@ -1,30 +1,28 @@
 {
-  "name": "test_parsel",
-  "version": "1.0.0",
+  "name": "test_parcel",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://AndrL2311.github.io/test_parcel",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test_parsel/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrL2311/test_parsel.git"
+    "url": "git+https://github.com/AndrL2311//parcel-project-template.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndrL2311/test_parsel/issues"
+    "url": "https://github.com/AndrL2311//test_parcel/issues"
   },
-  "homepage": "https://AndrL2311.github.io/test_parsel/",
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "parcel-bundler": "^1.12.5"
-  },
-  "dependencies": {
-    "parcel-plugin-handlebars-precompile": "^1.0.2"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
   }
 }
